@@ -1,0 +1,79 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Next.js Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-900">
+    <header
+      class="flex items-center justify-between p-4 border-b border-gray-200"
+    >
+      <div class="flex items-center space-x-2">
+        <img
+          alt="Next.js logo"
+          class="h-8"
+          height="30"
+          src="https://storage.googleapis.com/a1aa/image/JcPGWZyTQvaGBFBl27LMVB2PCJym0vBT0tonuRdP2B7XtUAF.jpg"
+          width="30"
+        />
+        <span class="font-bold text-xl"> NEXT.js </span>
+      </div>
+      <nav class="hidden md:flex space-x-4">
+        <a class="text-gray-600 hover:text-gray-900" href="#"> Showcase </a>
+        <a class="text-gray-600 hover:text-gray-900" href="#"> Docs </a>
+        <a class="text-gray-600 hover:text-gray-900" href="#"> Blog </a>
+        <a class="text-gray-600 hover:text-gray-900" href="#"> Templates </a>
+        <a class="text-gray-600 hover:text-gray-900" href="#"> Enterprise </a>
+      </nav>
+      <div class="flex items-center space-x-4">
+        <input
+          class="hidden md:block px-2 py-1 border border-gray-300 rounded"
+          placeholder="Search documentation..."
+          type="text"
+        />
+        <button class="px-4 py-2 bg-gray-100 text-gray-600 rounded">
+          Deploy
+        </button>
+        <button class="px-4 py-2 bg-black text-white rounded">Learn</button>
+      </div>
+    </header>
+    <main
+      class="flex flex-col items-center justify-center text-center py-20 px-4"
+    >
+      <h1 class="text-5xl md:text-6xl font-bold mb-4">
+        The React Framework for the Web
+      </h1>
+      <p class="text-lg md:text-xl text-gray-600 mb-8">
+        Used by some of the world's largest companies, Next.js enables you to
+        create
+        <span class="font-semibold"> high-quality web applications </span>
+        with the power of React components.
+      </p>
+      <div
+        class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4"
+      >
+        <button class="px-6 py-3 bg-black text-white rounded">
+          Get Started
+        </button>
+        <button class="px-6 py-3 bg-gray-100 text-gray-900 rounded">
+          Learn Next.js
+        </button>
+      </div>
+      <p class="mt-4 text-gray-600">▲ ~ npx create-next-app@latest</p>
+    </main>
+  </body>
+</html>
